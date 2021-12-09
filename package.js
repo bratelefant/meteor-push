@@ -1,6 +1,6 @@
 /* globals Package, Npm, Cordova */
 Package.describe({
-  name: 'bratelefant:meteor-push',
+  name: 'bratelefant:push',
   version: '3.0.0',
   summary: 'Push Notifications for Cordova and Web/PWA with Firebase (FCM).',
   git: 'https://github.com/bratelefant/meteor-push.git'
@@ -13,7 +13,7 @@ Npm.depends({
 })
 
 Cordova.depends({
-  '@havesource/cordova-plugin-push': '3.0.0',
+  'cordova-plugin-push': '3.0.0',
   'cordova-plugin-device': '2.0.3'
 })
 
