@@ -1,9 +1,9 @@
 /* globals Package, Npm, Cordova */
 Package.describe({
-  name: 'bratelefant:push',
-  version: '3.0.0',
+  name: 'activitree:push',
+  version: '2.0.11',
   summary: 'Push Notifications for Cordova and Web/PWA with Firebase (FCM).',
-  git: 'https://github.com/bratelefant/meteor-push.git'
+  git: 'https://github.com/activitree/meteor-push.git'
 })
 
 Npm.depends({
@@ -13,7 +13,7 @@ Npm.depends({
 })
 
 Cordova.depends({
-  'cordova-plugin-push': '3.0.0',
+  'phonegap-plugin-push': '2.3.0',
   'cordova-plugin-device': '2.0.3'
 })
 
